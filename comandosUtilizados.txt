@@ -1,0 +1,29 @@
+   50  mkdir 20230605-AngelicaRodriguez
+   51  cd 20230605-AngelicaRodriguez/
+   52  git init
+   53  git remote add origin https://github.com/angelicarm3/20230605-AngelicaRodriguez.git
+   54  git branch -M main
+   55  touch comandos.txt main.js index.html
+   56  git add .
+   57  git commit -m "commit 01 de AngelicaRodriguez"
+   58  git push -u origin main
+   59  git branch feature01
+   60  git checkout feature01
+   61  mkdir Terminal Hardware
+   62  ls
+   63  touch Hardware/resumen.txt Terminal/resumen.txt
+   64  git add .
+   65  git commit -m "commit 02 de AngelicaRodriguez"
+   66  git push -u origin feature01
+   67  git branch feature02
+   68  git checkout feature02
+   69  nano Terminal/resumen.txt
+   70  cat Terminal/resumen.txt
+   71  nano Hardware/resumen.txt
+   72  cat Hardware/resumen.txt
+   73  git add .
+   74  git commit -m "commit 03 de AngelicaRodriguez"
+   75  git push -u origin feature02
+   76  git checkout main
+   77  mv comandos.txt comandosUtilizados.txt
+   78  history
